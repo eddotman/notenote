@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body, p, h1, h2, h3, h4, .btn {font-family: "Open Sans"; font-weight: 300;}
+body, p {font-size: 22px;}
+
+img {margin: 5px;}
+
+.hero-unit {border-radius: 0; background: #16a085; color: #ffffff;}
+.stats {background: #232323; padding: 40px; margin: 5px; color: #ffffff;}
+.desc {padding:0; margin-top:30px;}
+.row-fluid {margin-bottom: 30px;}
