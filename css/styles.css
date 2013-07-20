@@ -19,7 +19,18 @@ img {margin: 5px;}
 }
 
 @media (max-width:780px) {
-	.desc {font-size: 16px;}
+	.desc {font-size: 18px;}
 	.video {width:320px; height:200px;}
 }
+
+@media (max-width:1000px) {
+	.desc {font-size: 20px;}
+	.video {width:260px; height:180px;}
+}
+
+@media (max-width:1220px) {
+	.desc {font-size: 22px;}
+	.video {width:280px; height:220px;}
+}
+
 
