@@ -1,11 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 body, p, h1, h2, h3, h4, .btn {font-family: "Open Sans"; font-weight: 300;}
-body, p, table {font-size: 18px; line-height: 38px;}
+body, p, table {font-size: 18px; line-height: 2.0em;}
+.table td {padding: 5px; line-height: 1.5em;}
 
 img {margin: 5px;}
 
 .hero-unit {border-radius: 0; background: #16a085; color: #ffffff; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;}
 .stats {background: #232323; padding: 45px; margin: 5px; color: #ffffff;}
-.desc {padding:0; margin-top:30px;}
+.desc {font-size: 24px; padding:0; margin-top:30px; margin-bottom: 30px;}
 .row-fluid {margin-bottom: 30px;}
+
+@media (max-width:480px) {
+	.desc {font-size: 16px;}
+}
