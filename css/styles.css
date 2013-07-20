@@ -11,9 +11,9 @@ img {margin: 5px;}
 .desc {font-size: 24px; padding:0; margin-top:30px; margin-bottom: 30px;}
 .row-fluid {margin-bottom: 30px;}
 
-.video {padding:5px;}
+.video {padding:5px; width:480px; height:300px;}
 
 @media (max-width:480px) {
 	.desc {font-size: 16px;}
-	.video {width:320px; height:200px;}
+	.video {width:260px; height:180px;}
 }
