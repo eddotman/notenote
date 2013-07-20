@@ -8,29 +8,31 @@ img {margin: 5px;}
 
 .hero-unit {border-radius: 0; background: #16a085; color: #ffffff; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;}
 .stats {background: #232323; padding: 45px; margin: 5px; color: #ffffff;}
-.desc {font-size: 24px; padding:0; margin-top:30px; margin-bottom: 30px;}
 .row-fluid {margin-bottom: 30px;}
-
-.video {padding:5px; width:480px; height:300px;}
 
 @media (max-width:480px) {
 	.desc {font-size: 16px;}
-	.video {width:260px; height:180px;}
-}
-
-@media (max-width:780px) {
-	.desc {font-size: 18px;}
 	.video {width:320px; height:200px;}
 }
 
-@media (max-width:1000px) {
+@media (min-width:480px) and (max-width:780px) {
+	.desc {font-size: 18px;}
+	.video {width:480px; height:300px;}
+}
+
+@media (min-width:780px) and (max-width:1000px) {
 	.desc {font-size: 20px;}
-	.video {width:260px; height:180px;}
+	.video {margin-right:20px; width:300px; height:140px;}
 }
 
 @media (max-width:1220px) {
 	.desc {font-size: 22px;}
-	.video {width:280px; height:220px;}
+	.video { padding:40px; width:280px; height:220px;}
+}
+
+@media (min-width:1220px) {
+	.desc {font-size: 24px;}
+	.video { padding:5px; width:480px; height:300px;}
 }
 
 
