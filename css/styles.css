@@ -8,11 +8,12 @@ img {margin: 5px;}
 
 .hero-unit {border-radius: 0; background: #16a085; color: #ffffff; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0;}
 .stats {background: #232323; padding: 45px; margin: 5px; color: #ffffff;}
+.desc {margin-top: 30px; margin-bottom: 30px;}
 .row-fluid {margin-bottom: 30px;}
 
 @media (max-width:480px) {
 	.desc {font-size: 16px;}
-	.video {width:320px; height:200px;}
+	.video {width:240px; height:180px;}
 }
 
 @media (min-width:480px) and (max-width:780px) {
